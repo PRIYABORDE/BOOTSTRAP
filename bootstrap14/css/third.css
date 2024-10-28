@@ -1,0 +1,141 @@
+
+*{
+    text-decoration: none;
+}
+.navbar
+{
+    background: rgb(199, 213, 216);
+   font-family: calibri;
+   height: 100px;
+
+}
+.navdiv
+{
+    display: flex;
+    align-items: center;
+}
+.logo a
+{
+    height: 50px;
+    width: 50px;
+    margin: 16px;
+}
+img
+{
+    height: 70px;
+    width: 70px;
+    margin: 3px;
+}
+button
+{
+    background-color: rgb(22, 187, 243);
+    border-radius: 5px;
+    height:30px;
+    width: 70px;
+    border:hidden;
+    color: whitesmoke;
+}
+.btn12{
+    margin-left: 480px;
+    cursor: pointer;
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+    left: 200px;
+}
+li a
+{
+    color: #444343;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+li 
+{
+    float: left;
+}
+
+li.dropdown
+{
+    display: inline-block;
+}
+      
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+      
+.dropdown-content a:hover
+{
+    background-color: #f1f1f1;
+}      
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+ul{
+    width: 500px;
+}
+.login_page{
+    height:280px;
+    width: 350px;
+    position: absolute;
+    border-style: groove;
+    margin-left: 300px;
+    visibility:hidden;
+    transition: transform 0.4, top 0.4s;
+}
+.bodylogin{
+    margin: 15px;
+}
+input{
+    width: 300px;
+    height: 20px;
+}
+h5{
+    color: #8d8a8a;
+}
+h2{
+    margin: 6px;
+}
+.closebtn{
+    background-color: #444343;
+    margin-left: 160px;
+}
+.open-login_page{
+    visibility: visible;
+    top:30%;
+    transform: translate(-50%)(-50%) scale(1);
+}
+.login_page.closebtn{
+    width: 100%;
+    padding: 10px 0;transform: translate(-50%)(-50%) scale(0.1);
+    background: #fff; 
+ }

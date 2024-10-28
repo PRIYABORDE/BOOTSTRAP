@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 400px;
+    width: 265px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border:solid;
+    border-color: rgb(184, 179, 179);
+}
+.img1{
+    height: 150px;
+    width: 265px;
+}
+.card-title{
+    margin-left: 30px;
+    color: rgb(65, 62, 62);
+}
+.card-text{
+    margin-left: 20px;
+    color: rgb(163, 154, 154);
+}
+button{
+    height: 40px;
+    width: 230px;
+    background-color: rgb(18, 142, 250);
+    margin-left: 20px;
+    border: 2px;
+    border-radius: 5px;
+    color: #f5f3f3;
+}

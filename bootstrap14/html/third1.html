@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/third1.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+    <div class="popup" id="popup">
+        <h2>Login page</h2><button type="button" onclick="closepopup()">login</button>
+    </div>  
+</div>   
+   <script>
+    let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closepopup(){
+        popup.classList.remove("cloue-popup");
+    }
+   </script> 
+</body>
+</html>
